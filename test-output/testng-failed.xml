@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [柠檬前程贷]">
+  <parameter name="type" value="ie"/>
+  <parameter name="version" value="11"/>
+  <test name="测试接口(failed)">
+    <classes>
+      <class name="cases.AddProjectsCase">
+        <methods>
+          <include name="finish"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- cases.AddProjectsCase -->
+      <class name="cases.ConfiguresCase">
+        <methods>
+          <include name="init"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- cases.ConfiguresCase -->
+      <class name="cases.LoginCase">
+        <methods>
+          <include name="finish"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- cases.LoginCase -->
+      <class name="cases.ProjectsListCase">
+        <methods>
+          <include name="init"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- cases.ProjectsListCase -->
+      <class name="cases.RegisterCase">
+        <methods>
+          <include name="finish"/>
+          <include name="init"/>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- cases.RegisterCase -->
+    </classes>
+  </test> <!-- 测试接口(failed) -->
+</suite> <!-- Failed suite [柠檬前程贷] -->

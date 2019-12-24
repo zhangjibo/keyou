@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  <!--文档声明-->
+<suite name="keyou平台接口" parallel="false">
+  <test name="测试接口">
+    <classes>
+      <class name="cases.RegisterCase"/>
+      <class name="cases.LoginCase"/>
+     <class name="cases.ConfiguresCase"/>
+     <class name="cases.ProjectsListCase"/>
+     <class name="cases.AddProjectsCase"/>
+
+    </classes>
+  </test> <!-- Test -->
+  <parameter name="type" value="ie"></parameter>
+  <parameter name="version" value="11"></parameter>  <!--固定化参数作分离-->
+</suite> <!-- Suite -->
