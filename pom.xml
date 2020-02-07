@@ -71,12 +71,12 @@
   		<version>1.6.1</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>6.9.8</version>
-    <scope>test</scope>
-</dependency>
+<!--<dependency>-->
+<!--    <groupId>org.testng</groupId>-->
+<!--    <artifactId>testng</artifactId>-->
+<!--    <version>6.9.8</version>-->
+<!--    <scope>test</scope>-->
+<!--</dependency>-->
 <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
@@ -115,8 +115,14 @@
     <artifactId>moco-runner</artifactId>
     <version>1.0.0</version>
 </dependency>
-		
-	
+	  <dependency>
+		  <groupId>org.testng</groupId>
+		  <artifactId>testng</artifactId>
+		  <version>6.10</version>
+		  <scope>test</scope>
+	  </dependency>
+
+
   </dependencies>
   	<build>
 		<plugins>

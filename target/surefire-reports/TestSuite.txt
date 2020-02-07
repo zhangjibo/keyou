@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.453 s <<< FAILURE! - in TestSuite
-test(cases.RegisterCase)  Time elapsed: 1.483 s  <<< FAILURE!
-java.lang.AssertionError: expected [Pass] but found [Fail]
-	at cases.RegisterCase.test(RegisterCase.java:25)
-
