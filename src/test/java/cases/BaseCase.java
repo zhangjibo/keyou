@@ -159,7 +159,8 @@ public abstract class BaseCase {
 		// 通过jsonPath表达式获取到实际响应的实际值
 		Object realValue = JSONPath.read(content, jsonPathValue.getExpression());
 		// 拿期望值和实际值比较
-		boolean flag = jsonPathValue.getValue().equals(realValue.toString());
+//		boolean flag = jsonPathValue.getValue().equals(realValue.toString());
+		boolean flag = realValue.toString().equals(jsonPathValue.getValue());
 		log.info("实际值：" + realValue + " | 期望值：" + expectedData + "断言结果：" + flag);
 
 		if (flag == false) {

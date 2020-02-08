@@ -1,1 +1,4 @@
 #allure报表忽略的文件
+allure-results
+log
+target

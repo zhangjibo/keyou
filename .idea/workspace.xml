@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc081bea-9bc7-4435-9f94-9ffecd137804" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/api_auto.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/keyou.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/keyou.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,6 +48,7 @@
       <command value="clean test" />
       <command value="mvn clean test" />
       <command value="mvn clean test " />
+      <command value="mvn test" />
       <command value="mvn clean test io.qameta.allure:allure-maven:serve" />
     </option>
   </component>
@@ -134,7 +133,7 @@
       <workItem from="1581074332022" duration="576000" />
       <workItem from="1581074971502" duration="2113000" />
       <workItem from="1581077109145" duration="292000" />
-      <workItem from="1581077411349" duration="4050000" />
+      <workItem from="1581077411349" duration="5219000" />
     </task>
     <servers />
   </component>
